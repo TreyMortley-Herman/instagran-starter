@@ -32,9 +32,9 @@ body {
 .user p{
     text-align: center;
     margin: 0;
-    font-family: lucida sans unicode;
+    font-family: 'lucida sans unicode';
     font-weight: 100;
-    font-size: small;
+    font-size: smaller;
 }
 .post-header {
     background-color: white;
@@ -73,7 +73,7 @@ body > section.post> div.post-header >img {
     border: 2px double gainsboro;
 }
 body > section.post > div.post-header > span {
-    position: relative;
+    position: absolute;
     top: -20px;
     left: 5px;
 }
